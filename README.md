@@ -1,5 +1,6 @@
 # Bincom Training Program.
-**This repository contains the Sessions and Assignments for the Bincom Training Program.**
+### **This repository contains the Sessions and Assignments for the Bincom Training Program.**
+#
 
 ## Session 1: SET UP ENVIRONMENT/HTML/PHP/JS/OVERVIEW
 **HTML (SETTING UP DEVELOPMENT ENVIRONMENT):**
