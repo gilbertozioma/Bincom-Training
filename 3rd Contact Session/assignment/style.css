@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #0d0d14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.profile-head {
+    background-color: #191925;
+    color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    /* Reduced padding */
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-head p {
+    font-size: 12px;
+    /* Slightly smaller font */
+    margin-top: 3px;
+}
+
+.profile-head label {
+    color: #bbbbc0;
+    font-weight: bold;
+    font-size: 13px;
+    /* Slightly smaller font */
+}
+
+.profile-info {
+    background-color: #191925;
+    color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    /* Reduced padding */
+    margin-bottom: 8px;
+    /* Reduced margin */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.profile-info label {
+    color: #bbbbc0;
+    font-weight: bold;
+    font-size: 13px;
+    /* Slightly smaller font */
+}
+
+.profile-info p {
+    margin: 0;
+    padding-top: 3px;
+}
+
+.pp {
+    align-self: center;
+    cursor: pointer;
+}
+
+img {
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 15px;
+        /* padding-bottom: 100px; */
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .profile-head,
+    .profile-info {
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
+        margin-bottom: 8px;
+    }
+
+    .profile-head p,
+    .profile-info p {
+        font-size: 20px;
+    }
+
+    .profile-head label,
+    .profile-info label {
+        font-size: 22px;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+}

@@ -1,0 +1,1 @@
+Create a simple profile page about yourself (use constants and variables to store information about yourself and echo them out on the page).

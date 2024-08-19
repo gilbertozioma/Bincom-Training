@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bincom Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/bincom-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/bincom-logo.png" alt="Bincom Academy Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <video autoplay muted loop>
+            <source src="images/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Welcome to Bincom Academy</h1>
+            <p>Your journey to tech excellence begins here.</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <img src="images/about-us.png" alt="About Us Image">
+            <p>Bincom Academy is Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vel voluptatibus culpa
+                perferendis illo maxime nesciunt fuga facilis blanditiis nulla eos dolore, omnis, eveniet amet eum
+                expedita quaerat, assumenda autem ea excepturi aspernatur rem. Sequi reiciendis voluptas quos omnis
+                maiores qui, vitae corrupti quas maxime nemo consequuntur laboriosam cumque velit eaque delectus
+                laudantium odit quidem! Dolore porro vel, dolores tempore exercitationem consequatur veniam labore
+                officia et odit eveniet eligendi ut quam deserunt iste sit incidunt sint voluptatem aperiam nulla
+                reiciendis illo ratione delectus quos! Amet modi delectus nobis atque sequi quia, reiciendis neque hic
+                facilis! Dolorum, veniam, commodi illum consectetur recusandae libero nobis, optio consequatur labore
+                suscipit incidunt expedita nihil aut blanditiis ut saepe aliquam harum nemo porro voluptatem? Itaque
+                consequatur vel numquam, tenetur autem aut, voluptate eligendi veritatis earum impedit quis deleniti
+                est.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/services1.jpg" alt="Service 1">
+                <h3>Web Development</h3>
+                <p>We offer comprehensive web development courses that cover front-end and back-end technologies,
+                    including HTML, CSS, JavaScript, PHP, and Laravel.</p>
+            </div>
+            <div class="card">
+                <img src="images/services2.jpg" alt="Service 2">
+                <h3>Data Analysis</h3>
+                <p>Our data analysis programs teach you how to leverage data to make informed decisions, using tools
+                    such as Python, R, and SQL.</p>
+            </div>
+            <div class="card">
+                <img src="images/services3.jpg" alt="Service 3">
+                <h3>Software Engineering</h3>
+                <p>Learn the fundamentals of software engineering, including algorithms, data structures, and system
+                    design, to build robust and scalable software solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>If you have any questions or need further information, please feel free to reach out to us.</p>
+                <p>Email: info@bincomacademy.com</p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+            <form action="#">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="images/bincom-logo.png" alt="Bincom Academy Logo">
+                </a>
+                <p>Bincom Academy is dedicated to providing high-quality education and training in the field of
+                    information technology.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe">
+                <h3>Subscribe to our Newsletter</h3>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/bincomdevcenter" target="_blank"><i
+                        class="ri-facebook-circle-fill"></i></a>
+                <a href="https://www.twitter.com/bincomict" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+                <a href="https://www.instagram.com/bincomdevcenter" target="_blank"><i
+                        class="ri-instagram-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bincom Academy. All rights reserved. | Designed by <a href="http://gilbertozioma.vercel.app"
+                    target="_blank">Gilbert Ozioma</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
