@@ -24,7 +24,7 @@
 - Create a To-Do List App using HTML and CSS.
 
 
-## Session 3: ETTING STARTED WITH PHP 
+## Session 3: GETTING STARTED WITH PHP 
 **PHP (BASICS):**
 - Introduction PHP, configuring your environment, PHP basics, PHP Code Commenting, How to Create Output, Introduction to Variables, PHP Variable Types, PHP Constants.
 
@@ -32,3 +32,24 @@
 - Create a simple profile page about yourself (use constants and variables to store information about yourself and echo them out on the page).
 
 
+## Session 4: CODING WITH PHP 
+**PHP (CONTD.):**
+- PHP Output into HTML Pages, Source Code PHP in HTML, Output Options For PHP, PHP Data Types, PHP Reference Values, Variable Information And Type, Trouble Shooting PHP, Include Versus Require, Server Variables, PHP Delete And Destroy, PHP Arrays, PHP Variable Check, PHP String Functions, PHP String Functions Implode And Explode.
+
+**UNDERSTANDING PHP (PHP CONDT.):**
+- Arithmetical Operators, Assignment Operators, Conditional Statements, Switch Statements, Logical Operators, Ternary Operator, String Operators, Loops, functions, OOP, Conclusion.
+
+**Assignment:**
+- Build a simple calculator.
+
+
+## Session 5: MYSQL PRACTICAL DATABASE QUERIES
+**INTRODUCTION TO SQL:**
+- Introducing MySQL, Installing and Configuring MySQL, Using PHP with MySQL, Creating A Table in A Database PHP MySQL, PHP MySQL Insert and Multi Insert, PHP Select Database Values, PHP Delete Row from MySQL.
+
+**WORKING WITH PHP AND MYSQL:**
+- WORKING WITH PHP AND MYSQL
+Working with HTML forms, Prepare for Database Connection, Setup Connection to Database, Creating A New Database, Creating A Database Table, PHP Insert in Database.
+
+**Assignment:**
+- Create a ToDo app with php html and css  which is connected to your database.
