@@ -56,6 +56,13 @@ h1 {
     color: #bfbfbf;
 }
 
+form .check-form, .todo-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .add-button {
     border: none;
     outline: none;
@@ -84,6 +91,18 @@ h1 {
     padding: 10px 12px;
     border: 2px solid #e6b7eca1;
     transition: all 0.2s ease;
+}
+
+.empty-text {
+    color: #bfbfbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.filter a {
+    text-decoration: none;
 }
 
 .todo:first-child {
@@ -162,15 +181,30 @@ input:checked+span {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    align-items: center;
 }
 
 .filter {
     color: #eee;
-    padding: 5px 15px;
-    border-radius: 100px;
+    padding: 5px 5px;
+    margin: 0 5px;
+    border-radius: 5px;
     border: 2px solid #e6b7eca1;
     transition: all 0.2s ease;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter a {
+    color: inherit;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 .filter.active,
@@ -179,14 +213,24 @@ input:checked+span {
 }
 
 .delete-all {
-    display: flex;
-    color: #eee;
+    color: #d86e6e;
     padding: 7px 15px;
+    border: 2px solid #d86e6e;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
+.delete-all a {
+    color: inherit;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
 .delete-all:hover {
     border-radius: 5px;
-    background-color: #e6b7eca1;
+    color: #fff;
+    background-color: #d86e6e;
 }
