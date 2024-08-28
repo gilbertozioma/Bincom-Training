@@ -112,7 +112,7 @@ include 'conn.php';
 
         <div class="container">
             <nav>
-                <a href="create.php">Add New Entry</a>
+                <a href="create_guestbook.php">Add New Entry</a>
             </nav>
             <div class="table-wrapper">
                 <table>
@@ -126,7 +126,7 @@ include 'conn.php';
                     </thead>
                     <tbody>
                         <?php
-                        $sql = "SELECT * FROM guestbooks ORDER BY id DESC";
+                        $sql = "SELECT * FROM guestbooks ORDER BY id ASC";
                         $result = $conn->query($sql);
 
                         if ($result->num_rows > 0) {
