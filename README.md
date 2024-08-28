@@ -53,3 +53,12 @@ Working with HTML forms, Prepare for Database Connection, Setup Connection to Da
 
 **Assignment:**
 - Create a ToDo app with php html and css  which is connected to your database.
+
+
+
+## Session 6: REVISSION
+- Revision of all that has been learnt.
+- Preparation for test question using an assignment question similar to the test question.
+
+**Assignment:**
+- Create a student attendance register App.
