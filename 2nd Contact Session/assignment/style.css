@@ -1,20 +1,17 @@
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     height: 100vh;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #0d0d14;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(./images/background.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .container {
@@ -78,7 +75,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0c023a9f;
+    background-color: #120d299f;
     border-radius: 5px;
     margin: 10px 0;
     padding: 10px 12px;
