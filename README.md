@@ -7,7 +7,7 @@
 - Setting Up Localhost, Environment and Editor Setup, HTML (Introduction), CSS (Introduction), PHP and PHP’s Configuration First Code.
 
 **HTML& CSS (Overview):**
-- Coding, testing, and validating a web page, Using HTML to structure a web page, CSS to format the elements of a web page.
+- Coding, testing, and validating a web page, Using HTML to structure a web page, and CSS to format the elements of a web page.
 
 **Assignment:**
 - Create a landing page using only HTML and CSS.
@@ -15,7 +15,7 @@
 
 ## Session 2: HTML AND CSS Overview (Contd.)
 **CSS (BOX MODEL):**
-- How to use the CSS box model for spacing, borders, and backgrounds, CSS for page layout, lists and links.
+- How to use the CSS box model for spacing, borders, and backgrounds, CSS for page layout, lists, and links.
 
 **HTML & CSS (SUMMARY):**
 - Working with images, tables, creating forms, adding audio and video to your website, working with fonts and printing, CSS3 transitions, transforms, animations, and filters.
@@ -26,7 +26,7 @@
 
 ## Session 3: GETTING STARTED WITH PHP 
 **PHP (BASICS):**
-- Introduction PHP, configuring your environment, PHP basics, PHP Code Commenting, How to Create Output, Introduction to Variables, PHP Variable Types, PHP Constants.
+- Introduction to PHP, configuring your environment, PHP basics, PHP Code Commenting, How to Create Output, Introduction to Variables, PHP Variable Types, PHP Constants.
 
 **Assignment:**
 - Create a simple profile page about yourself (use constants and variables to store information about yourself and echo them out on the page).
@@ -34,7 +34,7 @@
 
 ## Session 4: CODING WITH PHP 
 **PHP (CONTD.):**
-- PHP Output into HTML Pages, Source Code PHP in HTML, Output Options For PHP, PHP Data Types, PHP Reference Values, Variable Information And Type, Trouble Shooting PHP, Include Versus Require, Server Variables, PHP Delete And Destroy, PHP Arrays, PHP Variable Check, PHP String Functions, PHP String Functions Implode And Explode.
+- PHP Output into HTML Pages, Source Code PHP in HTML, Output Options For PHP, PHP Data Types, PHP Reference Values, Variable Information, And Type, Troubleshooting PHP, Include Versus Require, Server Variables, PHP Delete And Destroy, PHP Arrays, PHP Variable Check, PHP String Functions, PHP String Functions Implode And Explode.
 
 **UNDERSTANDING PHP (PHP CONDT.):**
 - Arithmetical Operators, Assignment Operators, Conditional Statements, Switch Statements, Logical Operators, Ternary Operator, String Operators, Loops, functions, OOP, Conclusion.
@@ -52,13 +52,13 @@
 Working with HTML forms, Prepare for Database Connection, Setup Connection to Database, Creating A New Database, Creating A Database Table, PHP Insert in Database.
 
 **Assignment:**
-- Create a ToDo app with php html and css  which is connected to your database.
+- Create a ToDo app with PHP HTML and CSS  which is connected to your database.
 
 
 
-## Session 6: REVISSION
-- Revision of all that has been learnt.
-- Preparation for test question using an assignment question similar to the test question.
+## Session 6: REVISION
+- Revision of all that has been learned.
+- Preparation for test questions using an assignment question similar to the test question.
 
 **Assignment:**
 - Create a student attendance register App.
