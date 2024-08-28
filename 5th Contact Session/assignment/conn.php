@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "bincom_training";
+$dbname = "bincom_training_todo";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
