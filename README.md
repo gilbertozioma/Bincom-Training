@@ -62,3 +62,15 @@ Working with HTML forms, Prepare for Database Connection, Setup Connection to Da
 
 **Assignment:**
 - Create a student attendance register App.
+
+
+
+## Session 7: TEST
+- Finish the Test at Home and Submit Online
+
+**Assignment:**
+- Create a Guestbook Application with HTML, CSS, PHP, and MySql with the following  fixtures: 
+1. List all guestbooks 
+2. Creating a guest book 
+3. Editing a guestbook 
+4. Deleting a guestbook
