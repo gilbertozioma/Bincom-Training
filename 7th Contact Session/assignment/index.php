@@ -1,5 +1,10 @@
 <?php
 include 'conn.php';
+// Check if a message is passed in the URL
+if (isset($_GET['message'])) {
+    $message = htmlspecialchars($_GET['message']);
+    echo "<script>alert('$message');</script>";
+}
 ?>
 
 <!DOCTYPE html>

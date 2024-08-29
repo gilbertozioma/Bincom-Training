@@ -10,7 +10,8 @@ $sql = "DELETE FROM guestbooks WHERE id = $guestbook_id";
 
 // Execute the query
 if ($conn->query($sql)) {
-    header("Location: index.php");
+    $message = "Data deleted successfully";
+    header("Location: index.php?message=" . urlencode($message));
     exit();
 } else {
     echo "Error deleting record: " . $conn->error;

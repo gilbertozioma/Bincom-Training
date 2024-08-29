@@ -12,7 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Execute the query
     if ($conn->query($sql) === TRUE) {
-        header("Location: index.php");
+        $message = "Data inserted successfully";
+        header("Location: index.php?message=" . urlencode($message));
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
